@@ -1,9 +1,76 @@
+body{
+    background-color: #fdd370;
+    /* background-color: #637fba;  */
+    /* background: no-repeat;
+    background: radial-gradient(#fdd370 30%, #637fba 50%, black 20%) */
+}
+
+
 #greeting{
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
 
 }
 
+.fa-github-square {
+    width: 30px;
+    height: auto;
+
+}
+
 .text-box {
     padding: black;
 }
+
+.pps {
+    width: 150px;
+    height: 150px;
+}
+
+h4, p {
+    font-family: 'Comfortaa', cursive;
+}
+
+h4 {
+    text-align: center;
+}
+
+.card-divider {
+    background-color: black;
+    opacity: .9;
+    color: white;
+}
+
+
+.project-image {
+    width: 230px;
+    height:230px;
+}
+
+.card-section {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Small only */
+/* @media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+/* @media screen and (min-width: 40em) {} */
+
+/* Medium only */
+/* @media screen and (min-width: 40em) and (max-width: 63.9375em) {} */
+
+/* Large and up */
+/* @media screen and (min-width: 64em) {} */
+
+/* Large only */
+/* @media screen and (min-width: 64em) and (max-width: 74.9375em) {} */ */

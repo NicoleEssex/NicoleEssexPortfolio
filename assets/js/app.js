@@ -2,9 +2,9 @@ $(document).foundation()
 
 // retrieve current time to display proper greeting
 function displayGreeting() {
-    var elGreet = document.getElementById("greeting");
-    var today = new Date();
-    var time = today.getHours();
+    let elGreet = document.getElementById("greeting");
+    let today = new Date();
+    let time = today.getHours();
     if(time <= 11){
         elGreet.textContent = "Good Morning,";
     } else if(time >= 12 && time <=16){
