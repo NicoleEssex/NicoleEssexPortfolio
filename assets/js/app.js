@@ -14,3 +14,7 @@ function displayGreeting() {
     }      
 }
 displayGreeting();
+
+    // keep background image in-place for scrolling effect
+document.getElementById("body").style.backgroundAttachment = "fixed";
+    

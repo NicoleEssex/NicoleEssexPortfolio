@@ -1,25 +1,55 @@
 body{
-    background-color: #fdd370;
+    /* background-color: #fdd370; */
+    background: #fc2565 url("../images/IMG_3483-6-1200.gif") no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    
+    
     /* background-color: #637fba;  */
     /* background: no-repeat;
     background: radial-gradient(#fdd370 30%, #637fba 50%, black 20%) */
 }
 
+#contentWrap {
+    /* background: #fc2565 url("../images/IMG_3484.jpg") no-repeat; */
+    /* background-image: url("../images/IMG_3483-6-1200.png"); */
+}
+
+#banner {
+    /* background-color:#c7cfe5; */
+}
+
+#profile {
+    padding: 10px;
+    background-color: #fc2565;
+}
 
 #greeting{
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
-
+    opacity: .9;
 }
 
 .fa-github-square {
     width: 30px;
     height: auto;
+}
 
+#socialLinks {
+    /* background-color: #c7cfe5; */
+}
+
+#intro {
+    
+    padding: 20px;   
+    /* outline: 20px dotted; */
+    /* background-color: #fc2565; */ 
+    box-shadow: black 2px;
 }
 
 .text-box {
     padding: black;
+    
 }
 
 .pps {
@@ -35,8 +65,13 @@ h4 {
     text-align: center;
 }
 
+#projectSection {
+    position: relative;
+    margin-top: 337px;
+}
+
 .card-divider {
-    background-color: black;
+    background-color: #627EB9;
     opacity: .9;
     color: white;
 }
@@ -47,11 +82,13 @@ h4 {
     height:230px;
 }
 
-.card-section {
+div.card-section {
     display: block;
     overflow: hidden;
-    text-align: center;
+    text-align: center;    
 }
+
+
 
 
 
