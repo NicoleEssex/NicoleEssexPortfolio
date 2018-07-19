@@ -1,13 +1,7 @@
 body{
-    /* background-color: #fdd370; */
-    background: #fc2565 url("../images/IMG_3483-6-1200.gif") no-repeat;
+    background: black url("../images/IMG_3483-6-1200.gif") no-repeat;
     text-align: center;
     margin: 0 auto;
-    
-    
-    /* background-color: #637fba;  */
-    /* background: no-repeat;
-    background: radial-gradient(#fdd370 30%, #637fba 50%, black 20%) */
 }
 
 #contentWrap {
@@ -16,18 +10,21 @@ body{
 }
 
 #banner {
-    /* background-color:#c7cfe5; */
-}
-
-#profile {
-    padding: 10px;
-    background-color: #fc2565;
+    background-color:black;
+    margin: 0px auto black;
+    padding: black;
 }
 
 #greeting{
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
     opacity: .9;
+    text-shadow: 0 1px 0 white;
+}
+
+#bio {
+    text-shadow: 0 1px 0 white;
+    font-size: 16px;
 }
 
 .fa-github-square {
@@ -36,14 +33,15 @@ body{
 }
 
 #socialLinks {
-    /* background-color: #c7cfe5; */
+    background-color: #c7cfe5;
+    opacity: .9;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
 }
 
 #intro {
-    
     padding: 20px;   
-    /* outline: 20px dotted; */
-    /* background-color: #fc2565; */ 
     box-shadow: black 2px;
 }
 
@@ -65,9 +63,23 @@ h4 {
     text-align: center;
 }
 
+#space {
+    height: 231px;
+    width: 100%;
+}
+
+#projectTitle  {
+    color: white;
+    text-shadow: 0 1px 0 black;
+}
+
+#projectSubTitle {
+    color: white;
+    text-shadow: 0 1px 0 black;
+}
+
 #projectSection {
     position: relative;
-    margin-top: 337px;
 }
 
 .card-divider {
@@ -110,4 +122,4 @@ div.card-section {
 /* @media screen and (min-width: 64em) {} */
 
 /* Large only */
-/* @media screen and (min-width: 64em) and (max-width: 74.9375em) {} */ */
+/* @media screen and (min-width: 64em) and (max-width: 74.9375em) {} */ 
