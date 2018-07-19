@@ -4,27 +4,32 @@ body{
     margin: 0 auto;
 }
 
-#contentWrap {
-    /* background: #fc2565 url("../images/IMG_3484.jpg") no-repeat; */
-    /* background-image: url("../images/IMG_3483-6-1200.png"); */
-}
 
 #banner {
     background-color:black;
     margin: 0px auto black;
-    padding: black;
+    padding: 0px black;
 }
 
 #greeting{
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
-    opacity: .9;
-    text-shadow: 0 1px 0 white;
+    /* opacity: .9;
+    text-shadow: 0 1px 20px #F4CA60; */
+    color: black;
+    display: inline;
+    background: #F4CA60;
+    box-shadow: 10px 0 0 #F4CA60, -10px 0 0 #F4CA60;
+
 }
 
 #bio {
-    text-shadow: 0 1px 0 white;
+    display: inline;
+    background: #F4CA60;
+    box-shadow: 10px 0 0 #F4CA60, -10px 0 0 #F4CA60;
     font-size: 16px;
+    color: black;
+
 }
 
 .fa-github-square {
@@ -32,12 +37,12 @@ body{
     height: auto;
 }
 
-#socialLinks {
-    background-color: #c7cfe5;
-    opacity: .9;
+#links {
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 1000;
+    background-color: lightgray;
+    opacity: .9;
 }
 
 #intro {
