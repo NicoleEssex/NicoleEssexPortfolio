@@ -2,6 +2,7 @@ body{
     background: black url("../images/IMG_3483-6-1200.gif") no-repeat;
     text-align: center;
     margin: 0 auto;
+    background: cover;
 }
 
 
@@ -16,19 +17,19 @@ body{
     font-size: 25px;
     /* opacity: .9;
     text-shadow: 0 1px 20px #F4CA60; */
-    color: black;
+    color: #F4CA60;
     display: inline;
-    background: #F4CA60;
-    box-shadow: 10px 0 0 #F4CA60, -10px 0 0 #F4CA60;
+    background: black;
+    box-shadow: 10px 0 0 black, -10px 0 0 black;
 
 }
 
 #bio {
     display: inline;
-    background: #F4CA60;
-    box-shadow: 10px 0 0 #F4CA60, -10px 0 0 #F4CA60;
+    background: black;
+    box-shadow: 10px 0 0 black, -10px 0 0 black;
     font-size: 16px;
-    color: black;
+    color: #F4CA60;
 
 }
 
@@ -41,8 +42,9 @@ body{
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     opacity: .9;
+    margin-bottom: 10px;
 }
 
 #intro {
@@ -75,12 +77,18 @@ h4 {
 
 #projectTitle  {
     color: white;
-    text-shadow: 0 1px 0 black;
+    display: inline;
+    background: #627EB9;
+    box-shadow: 10px 0 0 #627EB9, -10px 0 0 #627EB9;
+    
 }
 
 #projectSubTitle {
     color: white;
-    text-shadow: 0 1px 0 black;
+    display: inline;
+    background: #627EB9;
+    box-shadow: 10px 0 0 #627EB9, -10px 0 0 #627EB9;
+
 }
 
 #projectSection {
