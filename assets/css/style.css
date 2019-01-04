@@ -24,7 +24,7 @@ body{
 
 }
 
-#bio {
+.bio {
     display: inline;
     background: black;
     box-shadow: 10px 0 0 black, -10px 0 0 black;
