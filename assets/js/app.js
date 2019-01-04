@@ -6,11 +6,11 @@ function displayGreeting() {
     let today = new Date();
     let time = today.getHours();
     if(time <= 11){
-        elGreet.textContent = "Good Morning,";
+        elGreet.textContent = "Good Morning";
     } else if(time >= 12 && time <=16){
-        elGreet.textContent = "Good Afternoon,";
+        elGreet.textContent = "Good Afternoon";
     } else {
-        elGreet.textContent = "Good Evening,";
+        elGreet.textContent = "Good Evening";
     }      
 }
 displayGreeting();
