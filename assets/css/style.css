@@ -113,6 +113,8 @@ h4 {
     background-color: black;
     opacity: .9;
     color: #F4CA60;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .project-image {
@@ -120,10 +122,15 @@ h4 {
     height:230px;
 }
 
+.card {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 div.card-section {
     display: block;
     overflow: hidden;
-    text-align: center;    
+    text-align: center;   
 }
 
 
