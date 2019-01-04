@@ -1,5 +1,5 @@
 body{
-    background: black url("../images/IMG_3483-6-1200.gif") no-repeat;
+    /* background: black url("../images/grunge-background-1176.jpg") no-repeat; */
     text-align: center;
     margin: 0 auto;
     background: cover;
@@ -7,9 +7,16 @@ body{
 
 
 #banner {
-    background-color:black;
+    background: black url("../images/grunge-background-1176.jpg") no-repeat;
+    width: 100%;
     margin: 0px auto black;
     padding: 0px black;
+}
+
+img#headerPic {
+    margin-top: 87px;
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 #greeting{
@@ -18,19 +25,41 @@ body{
     /* opacity: .9;
     text-shadow: 0 1px 20px #F4CA60; */
     color: #F4CA60;
-    display: inline;
+    /* display: inline; */
     background: black;
     box-shadow: 10px 0 0 black, -10px 0 0 black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
 .bio {
-    display: inline;
+    /* display: inline; */
+    /* background: black; */
+    border-radius: 5px;
+    padding: 10px;
+    /* box-shadow: 10px 0 0 black, -10px 0 0 black; */
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 2px 1px white;
+}
+
+.titles {
+    display:inline;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: #F4CA60;
     background: black;
     box-shadow: 10px 0 0 black, -10px 0 0 black;
-    font-size: 16px;
-    color: #F4CA60;
-
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    line-height: 3;
 }
 
 .fa-github-square {
@@ -40,9 +69,8 @@ body{
 
 #links {
     position: sticky;
-    top: 0;
+    top: 65px;
     z-index: 1000;
-    /* background-color: lightgray; */
     opacity: .9;
     margin-bottom: 10px;
 }
@@ -70,25 +98,11 @@ h4 {
     text-align: center;
 }
 
-#space {
-    height: 231px;
-    width: 100%;
-}
-
-#projectTitle  {
-    color: white;
-    display: inline;
-    background: #627EB9;
-    box-shadow: 10px 0 0 #627EB9, -10px 0 0 #627EB9;
-    
-}
-
 #projectSubTitle {
-    color: white;
+    color: black;
     display: inline;
-    background: #627EB9;
-    box-shadow: 10px 0 0 #627EB9, -10px 0 0 #627EB9;
-
+    background: #F4CA60;
+    box-shadow: 10px 0 0 #F4CA60, -10px 0 0 #F4CA60;
 }
 
 #projectSection {
@@ -96,11 +110,10 @@ h4 {
 }
 
 .card-divider {
-    background-color: #627EB9;
+    background-color: black;
     opacity: .9;
-    color: white;
+    color: #F4CA60;
 }
-
 
 .project-image {
     width: 230px;
