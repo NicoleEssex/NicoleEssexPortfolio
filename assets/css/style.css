@@ -1,16 +1,27 @@
-body{
-    /* background: black url("../images/grunge-background-1176.jpg") no-repeat; */
+body {
     text-align: center;
     margin: 0 auto;
     background: cover;
 }
 
+hr {
+    height: 3px;
+    background-color: black;
+    
+}
+
+div#contentWrap {
+    background-color: black;
+}
+
 
 #banner {
-    background: black url("../images/grunge-background-1176.jpg") no-repeat;
+    background: url("../images/grunge-background-1176.jpg") no-repeat;
     width: 100%;
     margin: 0px auto black;
     padding: 0px black;
+    border-top: 10px black solid;
+    border-bottom:10px black solid;
 }
 
 img#headerPic {
@@ -22,25 +33,18 @@ img#headerPic {
 #greeting{
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
-    /* opacity: .9;
-    text-shadow: 0 1px 20px #F4CA60; */
     color: #F4CA60;
-    /* display: inline; */
     background: black;
     box-shadow: 10px 0 0 black, -10px 0 0 black;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
-.bio {
-    /* display: inline; */
-    /* background: black; */
+.bio {   
     border-radius: 5px;
     padding: 10px;
-    /* box-shadow: 10px 0 0 black, -10px 0 0 black; */
     font-size: 16px;
     font-weight: 700;
     color: black;
@@ -54,10 +58,8 @@ img#headerPic {
     color: #F4CA60;
     background: black;
     box-shadow: 10px 0 0 black, -10px 0 0 black;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     letter-spacing: 5px;
     line-height: 3;
 }
@@ -78,6 +80,12 @@ img#headerPic {
 #intro {
     padding: 20px;   
     box-shadow: black 2px;
+}
+
+figure {
+    display: inline-flex;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .text-box {
