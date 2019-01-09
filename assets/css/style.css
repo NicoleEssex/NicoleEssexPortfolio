@@ -5,14 +5,20 @@ body {
     background: cover;
 }
 
+.sub-pages-background {
+    background: url("../images/grunge-background-1176-op.jpg");
+    height: 100vh;
+}
+
 hr {
     height: 3px;
     background-color: black;
-    
+    margin-right: 75px;
+    margin-left: 75px;
 }
 
-div#contentWrap {
-    /* background-color: black; */
+div#contentWrap.sub-page-link-styling {
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255, 0.9));
 }
 
 
@@ -23,12 +29,6 @@ div#contentWrap {
     padding: 0px black;
     border-top: 10px black solid;
     border-bottom:10px black solid;
-}
-
-.link-page-styling {
-    background: url("../images/grunge-background-1176-op.jpg");
-    height: 100%;
-    
 }
 
 img#headerPic {
@@ -177,7 +177,9 @@ h3:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    height: 200px;
+    
+    margin-bottom: 5px;
+
   }
 
 .application-container div {
@@ -203,12 +205,12 @@ h3:hover {
   
   .hr-sub-pages {
       margin-bottom: 0px;
+      margin-top: 0px;
   }
 
 .cell {
     margin-top: 10px;
 }
-
 
   
 
