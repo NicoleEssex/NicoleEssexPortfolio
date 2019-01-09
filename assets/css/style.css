@@ -1,3 +1,4 @@
+
 body {
     text-align: center;
     margin: 0 auto;
@@ -11,7 +12,7 @@ hr {
 }
 
 div#contentWrap {
-    background-color: black;
+    /* background-color: black; */
 }
 
 
@@ -22,6 +23,12 @@ div#contentWrap {
     padding: 0px black;
     border-top: 10px black solid;
     border-bottom:10px black solid;
+}
+
+.link-page-styling {
+    background: url("../images/grunge-background-1176-op.jpg");
+    height: 100%;
+    
 }
 
 img#headerPic {
@@ -93,17 +100,8 @@ figure {
     
 }
 
-.pps {
-    width: 150px;
-    height: 150px;
-}
-
-h4, p {
+p {
     font-family: 'Comfortaa', cursive;
-}
-
-h4 {
-    text-align: center;
 }
 
 #projectSubTitle {
@@ -115,6 +113,8 @@ h4 {
 
 #projectSection {
     position: relative;
+    margin: 0 auto;
+    
 }
 
 .card-divider {
@@ -123,6 +123,7 @@ h4 {
     color: #F4CA60;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    margin: 0px auto;
 }
 
 .project-image {
@@ -138,8 +139,84 @@ h4 {
 div.card-section {
     display: block;
     overflow: hidden;
-    text-align: center;   
+    text-align: center;
 }
+
+div.cell.card-description-a {
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 20px; 
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;   
+}
+
+.card-description-a:hover {
+    position:relative;
+    box-shadow:0 0 10px 5px grey;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #f9e2a8;    
+}
+
+h3:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #efb218;
+}
+
+.application-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+  }
+
+.application-container div {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    color:  #efb218;
+    font-size: 1em;
+    margin: 5px;
+} 
+
+.application-container div:hover {
+    box-shadow: 5px 10px 5px grey;
+    top: -10px;
+    color:  #f9e2a8;
+    
+}
+  
+  .hr-sub-pages {
+      margin-bottom: 0px;
+  }
+
+.cell {
+    margin-top: 10px;
+}
+
+
+  
+
+
+
+
+
+
 
 
 
