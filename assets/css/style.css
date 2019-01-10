@@ -1,33 +1,69 @@
-
+/* -------------------------------- index page styled components -------------------------------- */
 body {
     text-align: center;
-    margin: 0 auto;
-    background: cover;
 }
 
-.sub-pages-background {
-    background: url("../images/grunge-background-1176-op.jpg");
-    height: 100vh;
-}
-
-hr {
-    height: 3px;
+/* index page only navbar styling only */
+#navbar, .top-bar, .top-bar-left ul li {
     background-color: black;
-    margin-right: 75px;
-    margin-left: 75px;
+    color: white;
+    align-items: center;
+    padding-top: 5px;
 }
 
-div#contentWrap.sub-page-link-styling {
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255, 0.9));
+ul.dropdown.menu {
+    background-color: black;
 }
 
+#sub-menu-hover-style: {
+    position: relative;
+}
+
+#sub-menu-hover-style:hover {
+    color: white;
+    top: 1px;
+}
+
+.menu-text-style {
+    position: relative;
+}
+
+.menu-text-style:hover {
+    color: white;
+    top: 1px;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {   
+    display: none;
+}
+
+.sub-menu {
+    border-radius: 5px;
+    background-color: black;
+    border-color: black;
+    box-shadow:5px 5px 5px white;
+}
+
+.menu a {
+    color: #F4CA60;
+}
+
+.menu-text {
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+}
+
+li.menu-item-hover-style:hover {
+    color: #f9e2a8;
+}
+
+.menu-text a:hover {
+    color: #f9e2a8;
+}
+/* end of index page only navbar styling  */
 
 #banner {
     background: url("../images/grunge-background-1176.jpg") no-repeat;
-    width: 100%;
-    margin: 0px auto black;
-    padding: 0px black;
-    border-top: 10px black solid;
     border-bottom:10px black solid;
 }
 
@@ -35,6 +71,8 @@ img#headerPic {
     margin-top: 87px;
     margin-bottom: 20px;
     border-radius: 50%;
+    border: 2px solid white;
+
 }
 
 #greeting{
@@ -71,22 +109,40 @@ img#headerPic {
     line-height: 3;
 }
 
-.fa-github-square {
-    width: 30px;
-    height: auto;
+hr {
+    height: 3px;
+    background-color: black;
+    margin-right: 75px;
+    margin-left: 75px;
 }
 
-#links {
-    position: sticky;
-    top: 65px;
-    z-index: 1000;
-    opacity: .9;
-    margin-bottom: 10px;
+.application-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;  
+    margin-bottom: 5px;
 }
 
-#intro {
-    padding: 20px;   
-    box-shadow: black 2px;
+.application-container div {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    color:  #efb218;
+    font-size: 1em;
+    margin: 5px;
+} 
+
+.application-container div:hover {
+    box-shadow: 5px 10px 5px grey;
+    top: -10px;
+    color:  #f9e2a8;    
 }
 
 figure {
@@ -94,27 +150,26 @@ figure {
     margin-right: 10px;
     margin-left: 10px;
 }
+/* -------------------------------- end of index page styled components ------------------------------- */
 
-.text-box {
-    padding: black;
-    
+/* ----------------------------- linked page(s) styled components ------------------------------ */
+.sub-pages-background {
+    background: url("../images/grunge-background-1176-op.jpg");
+    height: 100vh;
 }
 
-p {
-    font-family: 'Comfortaa', cursive;
+div#contentWrap.sub-page-link-styling {
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,255,255, 0.9));
 }
 
-#projectSubTitle {
-    color: black;
-    display: inline;
-    background: #F4CA60;
-    box-shadow: 10px 0 0 #F4CA60, -10px 0 0 #F4CA60;
+.hr-sub-pages {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #projectSection {
     position: relative;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 .card-divider {
@@ -123,23 +178,31 @@ p {
     color: #F4CA60;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: 0px auto;
-}
-
-.project-image {
-    width: 230px;
-    height:230px;
+    max-width: 300px;
 }
 
 .card {
+    max-width: 300px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.project-image {
+    width: 150px;
+    height: 150px;
 }
 
 div.card-section {
     display: block;
     overflow: hidden;
     text-align: center;
+}
+
+div.card-section p {
+    width: auto;
+    height: 50px;
+    overflow: auto;
+    margin-right: 2px;
 }
 
 div.cell.card-description-a {
@@ -160,72 +223,30 @@ div.cell.card-description-a {
     position:relative;
     box-shadow:0 0 10px 5px grey;
 }
+/* ------------------------------ end of linked page(s) styled components ------------------------ */
 
-h3 {
-    font-size: 1.75em;
-    color: #f9e2a8;    
+/*------------------------------- both index and linked page(s) styled components ----------------------*/
+.fa-github-square {
+    width: 30px;
+    height: auto;
 }
 
-h3:hover {
-    text-decoration-line: underline;
-    text-decoration-color: #efb218;
+#links {
+    position: sticky;
+    top: 65px;
+    z-index: 1000;
+    opacity: .9;
+    margin-bottom: 10px;
 }
 
-.application-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    
-    margin-bottom: 5px;
-
-  }
-
-.application-container div {
-    display: flex;
-    width: 150px;
-    height: 150px;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: relative;
-    color:  #efb218;
-    font-size: 1em;
-    margin: 5px;
-} 
-
-.application-container div:hover {
-    box-shadow: 5px 10px 5px grey;
-    top: -10px;
-    color:  #f9e2a8;
-    
+p {
+    font-family: 'Comfortaa', cursive;
 }
-  
-  .hr-sub-pages {
-      margin-bottom: 0px;
-      margin-top: 0px;
-  }
 
 .cell {
     margin-top: 10px;
 }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---------------------------------end of both index and linked page(s) components ----------------------*/
 
 
 
