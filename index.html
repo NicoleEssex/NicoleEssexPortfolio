@@ -6,16 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nicole Essex</title>
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Mukta:800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body id="body">
+    <!-- Navigation Items -->
+    <div id="navbar" class="grid-container-float">
+    <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Nicole Essex</li>
+            <li><a href="#" class="menu-text-style">Home</a></li>
+            <li>
+              <a href="#" id="sub-menu-hover-style">Applications</a>
+              <ul class="menu vertical sub-menu">
+                <li><a href="./client-side.html" class="menu-text-style">Client-side Applications</a></li>
+                <li><a href="./client-server-db.html" class="menu-text-style">Client/Server/Database Applications</a></li>
+                <li><a href="./email-campaigns.html" class="menu-text-style">HTML Email Campaigns</a></li>
+                <li><a href="./websites.html" class="menu-text-style">Websites</a></li>
+                <li><a href="./tutoring.html" class="menu-text-style">Tutorials</a></li>
+              </ul>
+            </li>
+            <li><a href="mailto:npcessex@gmail.com?subject=Portfolio" class="menu-text-style">Contact</a></li>
+          </ul>
+        </div>
+        <!-- -------------------------------------- FUTURE FEATURE ------------------------------------->
+        <!-- Keep search box menu item incase feature of searching specific technologies and haviing it return the applications that include that technology is added in the future. -->
+        <!-- <div class="top-bar-right">
+          <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+          </ul>
+        </div> -->
+        <!---------------------------------------------------------------------------------------------->
+    </div>    
+    </div> <!-- end of navigation items -->
     <div id="contentWrap">
         <!-- Header -->
-    <div id="banner" class="grid-container grid-container-padded">
+    <div id="banner" class="grid-container-float">
         <div class="grid-x grid-margin-x">
             <div class="cell small-12">
                 <img id="headerPic"src="assets/images/profile-sq-tx.png" alt="Nicole Essex Welcomes You">
@@ -25,14 +56,13 @@
         <div class="grid-x grid-margin-x">
             <div id="links" class="cell small-12">
                 <ul class="menu align-center">
-                    <li><a href="https://github.com/NicoleEssex"><span><i style="color:black;" class="fab fa-github-square fa-3x"></span></i></a></li>
-                    <li><a href="https://stackoverflow.com/users/9054278/nicole-essex"><span><i style="color:black;" class="fab fa-stack-overflow fa-3x"></i></span></a></li>
-                    <li><a href="mailto:npcessex@gmail.com?subject=Portfolio"><span><i style="color:black;" class="fas fa-at fa-3x"></i></span></a></li>
-                    <li><a href="https://www.linkedin.com/in/nicole-essex/"><span><i style="color:black; "class="fab fa-linkedin fa-3x"></i></span></a></li> 
+                    <li><a href="https://github.com/NicoleEssex"><span data-tooltip tabindex="1" title="view my code at Github"><i style="color:black;" class="fab fa-github-square fa-3x"></span></i></a></li>
+                    <li><a href="https://stackoverflow.com/users/9054278/nicole-essex"><span data-tooltip tabindex="1" title="visit me at Stackoverflow"><i style="color:black;" class="fab fa-stack-overflow fa-3x"></i></span></a></li>
+                    <li><a href="mailto:npcessex@gmail.com?subject=Portfolio"><span data-tooltip tabindex="1" title="Email Me (your default email will automatically open)"><i style="color:black;" class="fas fa-at fa-3x"></i></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/nicole-essex/"><span data-tooltip tabindex="1" title="see my LinkedIn profile"><i style="color:black; "class="fab fa-linkedin fa-3x"></i></span></a></li> 
                  </ul>
             </div>
         </div>
-    </div>
     </div>
     <!-- Introduction and Skills Sections -->
     <div id="intro"class="grid-container grid-container-padded">  
@@ -45,13 +75,13 @@
                 <h1 class="titles"> CERTIFICATIONS</h1> 
                 <p>
                     <figure>
-                        <a href="https://www.youracclaim.com/badges/6d70ac7e-c5e6-434a-aeb3-ec111bbfefe3/linked_in_profile" target="_blank">
+                        <a href="https://www.youracclaim.com/badges/6d70ac7e-c5e6-434a-aeb3-ec111bbfefe3/linked_in_profile" >
                         <img src="./assets/images/bc-cert.png" alt="Certificate of professional web development" width="100" height="100">
                         <figcaption>Web Development</figcaption>  
                         </a>
                     </figure>
                     <figure>
-                        <a href=https://www.freecodecamp.org/certification/fcc95a9e5e5-b43d-4488-bae9-7df0421fd2ca/responsive-web-design target="_blank">
+                        <a href=https://www.freecodecamp.org/certification/fcc95a9e5e5-b43d-4488-bae9-7df0421fd2ca/responsive-web-design >
                         <img src="https://secure.meetupstatic.com/photos/event/4/c/b/b/600_468259643.jpeg" alt="Certificate of responsive web design" width="100" height="100">
                         <figcaption>Responsive Web Design</figcaption>  
                         </a>
@@ -86,6 +116,7 @@
         </div>
     </footer>    
 </body>
+
 <script src="assets/js/vendor/jquery.js"></script>
 <script src="assets/js/vendor/foundation.js"></script>
 <script src="assets/js/app.js"></script>
