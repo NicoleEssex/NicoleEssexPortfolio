@@ -63,7 +63,7 @@ li.menu-item-hover-style:hover {
 /* end of index page only navbar styling  */
 
 #banner {
-    background: url("../images/grunge-background-1176.jpg") no-repeat;
+    background: url("../images/grunge-background-1176.jpg") repeat;
     border-bottom:10px black solid;
 }
 
@@ -166,6 +166,7 @@ div#contentWrap.sub-page-link-styling {
 .hr-sub-pages {
     margin-bottom: 0px;
     margin-top: 0px;
+    max-width: 100%;
 }
 
 #projectSection {
