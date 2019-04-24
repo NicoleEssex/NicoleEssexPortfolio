@@ -15,7 +15,7 @@ ul.dropdown.menu {
     background-color: black;
 }
 
-#sub-menu-hover-style: {
+#sub-menu-hover-style {
     position: relative;
 }
 
@@ -114,6 +114,7 @@ hr {
     background-color: black;
     margin-right: 75px;
     margin-left: 75px;
+    max-width: 100%;
 }
 
 .application-container {
@@ -245,6 +246,7 @@ p {
 
 .cell {
     margin-top: 10px;
+    
 }
 /* ---------------------------------end of both index and linked page(s) components ----------------------*/
 
