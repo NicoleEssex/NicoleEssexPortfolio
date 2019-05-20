@@ -179,17 +179,23 @@ div#contentWrap.sub-page-link-styling {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     max-width: 300px;
+    box-shadow: 5px 0px 5px grey;
+    
+
 }
 
 .card {
     max-width: 300px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 5px 5px 5px grey, 5px -5px 5px grey;
+    
 }
 
 .project-image {
     width: 150px;
     height: 150px;
+
 }
 
 div.card-section {
@@ -216,12 +222,13 @@ div.cell.card-description-a {
     margin: 20px; 
     border-radius: 50%;
     justify-content: center;
-    align-content: center;   
+    align-content: center;
+
 }
 
-.card-description-a:hover {
+div.card-section:hover {
     position:relative;
-    box-shadow:0 0 10px 5px grey;
+    font-weight: bolder;
 }
 /* ------------------------------ end of linked page(s) styled components ------------------------ */
 
