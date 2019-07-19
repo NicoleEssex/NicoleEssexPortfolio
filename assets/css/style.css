@@ -145,13 +145,7 @@ hr {
     color:  #f9e2a8;    
 }
 
-figure {
-    display: inline-flex;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 150px;
-    margin-top: 10px;
-}
+
 /* -------------------------------- end of index page styled components ------------------------------- */
 
 /* ----------------------------- linked page(s) styled components ------------------------------ */
