@@ -115,9 +115,8 @@ img#headerPic {
 hr {
     height: 3px;
     background-color: black;
-    margin-right: 75px;
-    margin-left: 75px;
-    max-width: 100%;
+    /* margin-right: 75px;
+    margin-left: 75px; */
 }
 
 .application-container {
@@ -148,12 +147,20 @@ hr {
     top: -10px;
     color:  #f9e2a8;    
 }
+/*-----------------------------------------Foundation Customization-------------------------------------*/
+.orbit-bullets button {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0.1rem;
+    margin-top: .8rem;
+    border-radius: 50%;
+    background-color: #cacaca; }
+    .orbit-bullets button:hover {
+      background-color: #8a8a8a; }
+    .orbit-bullets button.is-active {
+      background-color: #8a8a8a; }
 
-figure {
-    display: inline-flex;
-    margin-right: 10px;
-    margin-left: 10px;
-}
+
 /* -------------------------------- end of index page styled components ------------------------------- */
 
 /* ----------------------------- linked page(s) styled components ------------------------------ */
@@ -185,17 +192,21 @@ div#contentWrap.sub-page-link-styling {
     border-top-right-radius: 5px;
     max-width: 300px;
     margin-right:0px;
+    box-shadow: 5px 0px 5px grey; 
 }
 
 .card {
     max-width: 300px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 5px 5px 5px grey, 5px -5px 5px grey;
+    
 }
 
 .project-image {
     width: 150px;
     height: 150px;
+
 }
 
 div.card-section {
@@ -222,12 +233,13 @@ div.cell.card-description-a {
     margin: 20px; 
     border-radius: 50%;
     justify-content: center;
-    align-content: center;   
+    align-content: center;
+
 }
 
-.card-description-a:hover {
+div.card-section:hover {
     position:relative;
-    box-shadow:0 0 10px 5px grey;
+    font-weight: bolder;
 }
 /* ------------------------------ end of linked page(s) styled components ------------------------ */
 

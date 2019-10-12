@@ -4386,14 +4386,17 @@ select {
 
 .orbit-container {
   position: relative;
-  height: 0;
+  height: auto;
   margin: 0;
+  top: 2.5em;
+  margin-bottom: 2em;
   list-style: none;
   overflow: hidden; }
 
 .orbit-slide {
   width: 100%; }
-  .orbit-slide.no-motionui.is-active {
+
+.orbit-slide.no-motionui.is-active {
     top: 0;
     left: 0; }
 
@@ -4401,18 +4404,20 @@ select {
   margin: 0; }
 
 .orbit-image {
-  width: 100%;
-  max-width: 100%;
+  /* width: 100%;
+  max-width: 100%; */
   margin: 0; }
 
 .orbit-caption {
   position: absolute;
-  bottom: 0;
+  bottom: 112px;
+  left: 100px;
   width: 100%;
-  margin-bottom: 0;
   padding: 1rem;
-  background-color: rgba(10, 10, 10, 0.5);
-  color: #fefefe; }
+  color: darkgray;
+  
+  /* background-color: rgba(10, 10, 10, 0.5); */
+  }
 
 .orbit-previous, .orbit-next {
   position: absolute;
