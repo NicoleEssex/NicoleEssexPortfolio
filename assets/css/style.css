@@ -70,8 +70,11 @@ li.menu-item-hover-style:hover {
 img#headerPic {
     margin-top: 87px;
     margin-bottom: 20px;
-    border-radius: 50%;
-    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 5px 10px 64px 24px white;
+}
+
+
 
 }
 
@@ -133,7 +136,7 @@ hr {
     background-color: black;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 5%;
     position: relative;
     color:  #efb218;
     font-size: 1em;
@@ -181,6 +184,7 @@ div#contentWrap.sub-page-link-styling {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     max-width: 300px;
+    margin-right:0px;
 }
 
 .card {
