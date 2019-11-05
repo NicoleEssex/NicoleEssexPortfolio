@@ -217,7 +217,7 @@ div.card-section {
 
 div.card-section p {
     width: auto;
-    height: 50px;
+    height: 100px;
     overflow: auto;
     margin-right: 2px;
 }
