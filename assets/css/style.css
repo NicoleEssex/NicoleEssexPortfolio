@@ -74,11 +74,7 @@ img#headerPic {
     box-shadow: 5px 10px 64px 24px white;
 }
 
-
-
-}
-
-#greeting{
+#greeting {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
     color: #F4CA60;
@@ -88,6 +84,10 @@ img#headerPic {
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#intro {
+    padding: 50px 0px;
 }
 
 .bio {   
@@ -119,6 +119,13 @@ hr {
     margin-left: 75px; */
 }
 
+.outer-container {
+    width:1440px; 
+    height: auto; 
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .application-container {
     display: flex;
     flex-direction: row;
@@ -144,8 +151,7 @@ hr {
 
 .application-container div:hover {
     box-shadow: 5px 10px 5px grey;
-    top: -10px;
-    color:  #f9e2a8;    
+    transform: scale(1.1);    
 }
 /*-----------------------------------------Foundation Customization-------------------------------------*/
 .orbit-bullets button {
@@ -218,7 +224,7 @@ div.card-section {
 div.card-section p {
     width: auto;
     height: 100px;
-    overflow: auto;
+    overflow: scroll;
     margin-right: 2px;
 }
 
@@ -236,10 +242,12 @@ div.cell.card-description-a {
     align-content: center;
 
 }
+.card-wrapper {
+    padding: 20px;
+}
 
-div.card-section:hover {
-    position:relative;
-    font-weight: bolder;
+.card-wrapper:hover {
+    transform:scale(1.1);
 }
 /* ------------------------------ end of linked page(s) styled components ------------------------ */
 
@@ -255,6 +263,11 @@ div.card-section:hover {
     z-index: 1000;
     opacity: .9;
     margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+li:hover {
+    transform: scale(1.1);
 }
 
 p {
