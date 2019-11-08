@@ -114,39 +114,34 @@ img#headerPic {
 
 hr {
     height: 3px;
-    background-color: black;
-    /* margin-right: 75px;
-    margin-left: 75px; */
+    background-color: black;    
 }
 
-.outer-container {
-    width:1440px; 
-    height: auto; 
-    margin: 0 auto;
-    padding: 50px 0;
+p {
+    margin: 1em;
 }
 
 .application-container {
     display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;  
+    justify-content: space-evenly;  
     margin-bottom: 5px;
+    padding: 25px;
 }
 
 .application-container div {
-    display: flex;
-    width: 150px;
-    height: 150px;
+    flex-basis: 150px;
     background-color: black;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding: 75px;
     border-radius: 5%;
-    position: relative;
     color:  #efb218;
     font-size: 1em;
-    margin: 5px;
+    margin: 20px;
 } 
 
 .application-container div:hover {
@@ -187,7 +182,8 @@ div#contentWrap.sub-page-link-styling {
 
 #projectSection {
     position: relative;
-    margin: 0 auto;   
+    margin: 0 auto;
+    max-width: 1400px;   
 }
 
 .card-divider {
@@ -226,6 +222,7 @@ div.card-section p {
     height: 100px;
     overflow: scroll;
     margin-right: 2px;
+    text-align: left;
 }
 
 div.cell.card-description-a {
